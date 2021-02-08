@@ -4,15 +4,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="tarantool-rbc",
+    name="tarantoolrbc",
     version="0.0.1",
     author="RBC",
     author_email="vlatish@rbc.ru",
-    description="data finance client",
+    description="tarantool client",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/greyfox-dev/dfclient",
+    url="https://github.com/greyfox-dev/tarantool-client-rbc",
     packages=setuptools.find_packages(),
+    license="BSD",
     classifiers=[
         "Programming Language :: Python",
         "License :: OSI Approved :: BSD License",
