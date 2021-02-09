@@ -5,6 +5,6 @@ import logging
 from .client import SelectedConnection
 
 __all__ = ["SelectedConnection"]
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
